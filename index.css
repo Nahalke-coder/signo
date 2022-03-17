@@ -1,4 +1,4 @@
-body {
+body, a{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,18 +35,97 @@ body {
       justify-items: center;
       align-items: center;
       background-color: #F9F9FF;
-      margin-left: 25%;
-      margin-right: 25%;
       margin-top: 1rem;
     }
     
     .tittle{
       font-size: 200%;
       text-align: center;
-      color: #11283C ;
+      color: #003399;
     }
     .subtittle{
       text-align: center;
-      color: #11283C;
+      color: #003399;
     }
 
+.menu_navbar{
+  background-color: #e6e6e6;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  font-size: 100%;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.icon_signo p{
+  margin: 0px;
+  width: 95px;
+  align-self: center;
+}
+
+.icon_signo{
+  text-align: center;
+  background-color: #FBF1FD;
+  font-size: 16px;
+  border-radius: 4px;
+  display: block;
+  justify-items: center;
+  padding-top: 1rem;
+}
+
+h4{
+  text-align: center;
+  padding: 2.5rem 0rem;
+  border-bottom: 1px dashed black;
+  margin-bottom: 0px ;
+}
+
+h3, p{
+  margin: 0px;
+}
+
+h3{
+  padding-top: 40px;
+}
+p{
+  margin: 10px;
+}
+
+.links{
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.signo_amanha{
+  border-top: 1px dashed black;
+  width: 264px;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+footer{
+  background-color: #11283C;
+  margin: 0rem;
+  text-align: center ;
+}
+
+footer a, p{
+  display: block;
+  margin: 0rem;
+  padding: 1rem;
+}
+footer h3{
+  color: #99CCFF;
+}
+
+footer a{
+  color: #CCCCCC;
+}
