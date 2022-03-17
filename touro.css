@@ -36,7 +36,6 @@ main{
     align-items: center;
     background-color: #F9F9FF;
     margin-top: 1rem;
-    margin: 0px 25%;
   }
 h1{
     color: #003399;
@@ -103,4 +102,38 @@ section p{
     padding-top: 1rem;
 }
 
+
+h3, p{
+    margin: 0px;
+  }
+  
+  h3{
+    padding-top: 20px;
+  }
+  p{
+    margin: 10px;
+  }
+  
+  .links{
+    text-align: center;
+    padding: 1rem 0rem;
+  }
+  footer{
+    background-color: #11283C;
+    margin: 0rem;
+    text-align: center ;
+  }
+  
+  footer a, p{
+    display: block;
+    margin: 0rem;
+    padding: 1rem;
+  }
+  footer h3{
+    color: #99CCFF;
+  }
+  
+  footer a{
+    color: #CCCCCC;
+  }
 
