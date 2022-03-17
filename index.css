@@ -1,8 +1,49 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
-}
-
-h1{
-    color: blue;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header{
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      padding: 10px 0px;
+      background-color: #11283C;
+    }
+    header img{
+      justify-self: end;
+      padding-right: 1rem;
+    }
+    .header{
+      grid-column: 2;
+      color: #CDE3EA;
+      font-size: 90%;
+    }
+    .link_site{
+      margin: 0px;
+      align-self: left ;
+      padding: 10px 0px;
+    }
+    
+    .header_h2{
+      margin: 0px;
+      grid-row: 1;
+    }
+    main{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: #F9F9FF;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+    
+    .tittle{
+      font-size: 200%;
+      text-align: center;
+    
+    }
+    .subtittle{
+      text-align: center;
+    }
