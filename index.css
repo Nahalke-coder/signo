@@ -37,13 +37,16 @@ body {
       background-color: #F9F9FF;
       margin-left: 25%;
       margin-right: 25%;
+      margin-top: 1rem;
     }
     
     .tittle{
       font-size: 200%;
       text-align: center;
-    
+      color: #11283C ;
     }
     .subtittle{
       text-align: center;
+      color: #11283C;
     }
+
